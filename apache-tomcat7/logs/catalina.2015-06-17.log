@@ -1,0 +1,396 @@
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.62
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2015 17:14:55 UTC
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.62.0
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\Workspaces\eclipse43\apache-tomcat7\conf\logging.properties
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\Workspaces\eclipse43\apache-tomcat7\endorsed
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 4:51:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\Workspaces\eclipse43\apache-tomcat7\temp
+六月 17, 2015 4:51:12 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+六月 17, 2015 4:51:12 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 17, 2015 4:51:13 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+六月 17, 2015 4:51:13 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 4:51:13 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 4:51:13 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 345 ms
+六月 17, 2015 4:51:13 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 17, 2015 4:51:13 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.62
+六月 17, 2015 4:51:13 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs
+六月 17, 2015 4:51:14 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [543] milliseconds.
+六月 17, 2015 4:51:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs has finished in 1,449 ms
+六月 17, 2015 4:51:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples has finished in 481 ms
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager has finished in 91 ms
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager has finished in 70 ms
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT has finished in 61 ms
+六月 17, 2015 4:51:15 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 4:51:15 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 4:51:15 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 589 ms
+六月 17, 2015 4:51:27 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+六月 17, 2015 4:51:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 4:51:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 4:51:27 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+六月 17, 2015 4:51:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 4:51:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 4:51:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 4:51:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.62
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2015 17:14:55 UTC
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.62.0
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\Workspaces\eclipse43\apache-tomcat7\conf\logging.properties
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\Workspaces\eclipse43\apache-tomcat7\endorsed
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:04:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\Workspaces\eclipse43\apache-tomcat7\temp
+六月 17, 2015 5:04:39 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+六月 17, 2015 5:04:39 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 17, 2015 5:04:40 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+六月 17, 2015 5:04:40 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:04:40 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:04:40 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 354 ms
+六月 17, 2015 5:04:40 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 17, 2015 5:04:40 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.62
+六月 17, 2015 5:04:40 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs
+六月 17, 2015 5:04:41 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs has finished in 679 ms
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples has finished in 378 ms
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager has finished in 94 ms
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager has finished in 68 ms
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT has finished in 59 ms
+六月 17, 2015 5:04:41 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:04:41 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:04:41 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 359 ms
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.62
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2015 17:14:55 UTC
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.62.0
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\Workspaces\eclipse43\apache-tomcat7\conf\logging.properties
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\Workspaces\eclipse43\apache-tomcat7\endorsed
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:20:13 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\Workspaces\eclipse43\apache-tomcat7\temp
+六月 17, 2015 5:20:13 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+六月 17, 2015 5:20:13 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 17, 2015 5:20:14 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+六月 17, 2015 5:20:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:20:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:20:14 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 366 ms
+六月 17, 2015 5:20:14 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 17, 2015 5:20:14 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.62
+六月 17, 2015 5:20:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs
+六月 17, 2015 5:20:15 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs has finished in 654 ms
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples has finished in 379 ms
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager has finished in 101 ms
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager has finished in 61 ms
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT has finished in 51 ms
+六月 17, 2015 5:20:15 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:20:15 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:20:15 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 346 ms
+六月 17, 2015 5:28:18 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+六月 17, 2015 5:28:18 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:28:18 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:28:18 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+六月 17, 2015 5:28:18 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:28:18 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:28:18 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:28:18 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:28:55 下午 org.apache.catalina.startup.Catalina stopServer
+严重: Could not contact localhost:8105. Tomcat may not be running.
+六月 17, 2015 5:28:55 下午 org.apache.catalina.startup.Catalina stopServer
+严重: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:370)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:457)
+
+六月 17, 2015 5:29:06 下午 org.apache.catalina.startup.Catalina stopServer
+严重: Could not contact localhost:8105. Tomcat may not be running.
+六月 17, 2015 5:29:06 下午 org.apache.catalina.startup.Catalina stopServer
+严重: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:370)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:457)
+
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.62
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          May 7 2015 17:14:55 UTC
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.62.0
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\Workspaces\eclipse43\apache-tomcat7\conf\logging.properties
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\Workspaces\eclipse43\apache-tomcat7\endorsed
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\Workspaces\eclipse43\apache-tomcat7
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\Workspaces\eclipse43\apache-tomcat7\temp
+六月 17, 2015 5:29:24 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+六月 17, 2015 5:29:24 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 17, 2015 5:29:24 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+六月 17, 2015 5:29:24 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:29:24 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:29:24 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 332 ms
+六月 17, 2015 5:29:25 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 17, 2015 5:29:25 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.62
+六月 17, 2015 5:29:25 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs
+六月 17, 2015 5:29:25 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+六月 17, 2015 5:29:25 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\docs has finished in 591 ms
+六月 17, 2015 5:29:25 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples
+六月 17, 2015 5:29:25 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\examples has finished in 351 ms
+六月 17, 2015 5:29:25 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager
+六月 17, 2015 5:29:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\host-manager has finished in 95 ms
+六月 17, 2015 5:29:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager
+六月 17, 2015 5:29:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\manager has finished in 155 ms
+六月 17, 2015 5:29:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT
+六月 17, 2015 5:29:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\Workspaces\eclipse43\apache-tomcat7\webapps\ROOT has finished in 60 ms
+六月 17, 2015 5:29:26 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8180"]
+六月 17, 2015 5:29:26 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8109"]
+六月 17, 2015 5:29:26 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 349 ms
+六月 17, 2015 6:08:53 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive D:\Workspaces\eclipse43\apache-tomcat7\webapps\googlecode.war
+六月 17, 2015 6:08:53 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive D:\Workspaces\eclipse43\apache-tomcat7\webapps\googlecode.war has finished in 105 ms

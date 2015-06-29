@@ -1,0 +1,32 @@
+六月 17, 2015 5:06:02 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+六月 17, 2015 5:06:02 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: init: Global resources are available
+六月 17, 2015 5:06:02 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: list: Listing contexts for virtual host 'localhost'
+六月 17, 2015 5:12:39 下午 org.apache.catalina.core.ApplicationContext log
+信息: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+六月 17, 2015 5:12:39 下午 org.apache.catalina.core.ApplicationContext log
+信息: Manager: init: Global resources are available
+六月 17, 2015 5:12:44 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: list: Listing contexts for virtual host 'localhost'
+六月 17, 2015 5:21:09 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+六月 17, 2015 5:21:09 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: init: Global resources are available
+六月 17, 2015 5:21:09 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: list: Listing contexts for virtual host 'localhost'
+六月 17, 2015 6:08:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+六月 17, 2015 6:08:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: Manager: init: Global resources are available
+六月 17, 2015 6:08:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: Manager: deploy: Deploying web application '/googlecode'
+六月 17, 2015 6:08:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: Manager: Uploading WAR file to D:\Workspaces\eclipse43\apache-tomcat7\webapps\googlecode.war
+六月 17, 2015 6:09:01 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+六月 17, 2015 6:09:01 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: init: Global resources are available
+六月 17, 2015 6:09:01 下午 org.apache.catalina.core.ApplicationContext log
+信息: HTMLManager: list: Listing contexts for virtual host 'localhost'
