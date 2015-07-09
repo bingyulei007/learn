@@ -13,7 +13,7 @@
 		<!-- <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 		<context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/> -->
 	</context:component-scan>
-
+    <import resource="classpath:/webflow-config.xml"/>  
 	<mvc:annotation-driven>
 		<mvc:message-converters register-defaults="true">
 			<!-- 将StringHttpMessageConverter的默认编码设为UTF-8 -->
@@ -45,9 +45,6 @@
 	</bean> -->
 	
 
-<bean id="flowController" class="org.springframework.webflow.mvc.servlet.FlowController">
-    <property name="flowExecutor" ref="flowExecutor"/>
-</bean>
 
 	
 	<!-- springmvc的DispatchServlet在启动时会自动寻找所有实现了 HandlerExceptionResolver接口的类，将它们作为DispatchServlet的异常处理类 -->
@@ -70,12 +67,12 @@
     </property> 
   </bean>
 	<!-- 页面前缀和后缀 -->
-	<bean
+	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="viewClass"
 			value="org.springframework.web.servlet.view.JstlView"></property>
 		<property name="prefix">
-			<value>/jsp</value>
+			<value>/jsp/</value>
 		</property>
 		<property name="suffix">
 			<value>.jsp</value>
@@ -93,5 +90,7 @@
 	<!-- <mvc:interceptors>
 		<bean class="com.bcec.common.BcecInterceptor" />
 	</mvc:interceptors> -->
-
+	<bean id="flowController" class="org.springframework.webflow.mvc.servlet.FlowController">
+        <property name="flowExecutor" ref="flowExecutor" />
+    </bean>
 </beans>

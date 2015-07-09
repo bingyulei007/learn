@@ -8,6 +8,7 @@
     <title>Cart Application</title>
   </head>
 <body>
-<h2>Hello World!</h2>
+<h1>Hello!</h1><br/>
+<a href="shopping.do">View Cart</a>
 </body>
 </html>

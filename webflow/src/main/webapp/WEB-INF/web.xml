@@ -53,6 +53,10 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	
+
+
+
+	
 	<!-- <servlet>
 		<servlet-name>Initor</servlet-name>
 		<servlet-class>com.bcec.common.Initor</servlet-class>
@@ -60,7 +64,7 @@
 	</servlet> -->
 	
 	<session-config>
-		<session-timeout>30</session-timeout>
+		<session-timeout>50</session-timeout>
 	</session-config>
 
 	<jsp-config>
